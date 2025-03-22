@@ -1,0 +1,15 @@
+{
+  "name": "dify-xiaohongshu-plugin",
+  "version": "1.0.0",
+  "description": "Dify平台的小红书笔记获取插件",
+  "main": "main.py",
+  "author": "您的用户名或GitHub账号",
+  "license": "MIT",
+  "endpoints": {
+    "get_xiaohongshu_note": {
+      "path": "/get_note",
+      "method": "GET",
+      "description": "获取小红书笔记内容"
+    }
+  }
+} 
